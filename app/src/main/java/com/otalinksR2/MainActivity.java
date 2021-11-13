@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
 //        webview.getSettings().setAppCacheEnabled(false);
 //        webview.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
         myWebView.loadUrl("https://venkateswaran321.github.io/R2-ota");
+        myWebView.clearHistory();
+        myWebView.clearCache(true);
 //        WebSettings webSettings = webview.getSettings();
 //        webSettings.setJavaScriptEnabled(true);
 //        webSettings.setDomStorageEnabled(true);
