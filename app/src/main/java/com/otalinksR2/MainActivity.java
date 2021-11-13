@@ -45,18 +45,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-//    public void onclick(View view) {
-//        setContentView(R.layout.activity_main);
+    public void onclick(View view) {
+        //setContentView(R.layout.activity_main);
 //        WebView webview = findViewById(R.id.webview);
 //        webview.setWebViewClient(new WebViewClient());
 //        webview.getSettings().setAppCacheEnabled(false);
 //        webview.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
-//        webview.loadUrl("https://venkateswaran321.github.io/R2-ota");
+        myWebView.loadUrl("https://venkateswaran321.github.io/R2-ota");
 //        WebSettings webSettings = webview.getSettings();
 //        webSettings.setJavaScriptEnabled(true);
 //        webSettings.setDomStorageEnabled(true);
 //        webSettings.setLoadWithOverviewMode(true);
-////        webSettings.setUseWideViewPort(true);
+//        webSettings.setUseWideViewPort(true);
 //        webSettings.setBuiltInZoomControls(true);
 //        webSettings.setDisplayZoomControls(false);
 //        webSettings.setSupportZoom(true);
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 //                view.setData(Uri.parse(url));
 //                startActivity(view);
 //            }});
-//    }
+    }
 
     @Override
     public void onBackPressed() {
